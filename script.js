@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.nasa.gov/planetary/apod?api_key=MfK2ygGfil1XXHHOA1FdNVvXhTg4FjS2T1YYILvB";
+const BASE_URL = "https://api.nasa.gov/planetary/apod?api_key={YOUR_API_KEY}";
 
 // Testando a API da NASA e seus retornos
 // fetch(BASE_URL).then(function(response) {
