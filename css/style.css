@@ -1,0 +1,163 @@
+.mediaViewInfo {
+	--web-view-name: index.html;
+	--web-view-id: indexhtml;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: indexhtml;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#indexhtml {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	--web-view-name: index.html;
+	--web-view-id: indexhtml;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-scale-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+#topo {
+	fill: rgba(4, 0, 255, 0.308);
+}
+.topo {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	background-image: url("../assets/background.webp");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow: 0 15px 20px;
+}
+#rodape {
+	fill: rgb(2, 0, 150);
+}
+
+.rodape {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 200px;
+	left: 0px;
+	top: 982px;
+	filter: blur(5px);
+}
+
+#picture {
+	position: absolute;
+	border-radius:25px; 
+	width: 621px;
+	height: 555px;
+	left: 121px;
+	top: 290px;
+	overflow: visible;
+	filter: grayscale(100%);
+	box-shadow: 5px 5px 10px black;
+}
+#picture:hover{
+	transition: all;
+	transition-delay: 200ms;
+	transition-duration: 600ms;
+	transform: scale(1.2,1.2);
+	border-radius:25px; 
+	filter: grayscale(0%);
+}
+
+#title {
+	left: 800px;
+	top: 290px;
+	position: absolute;
+	overflow: hidden;
+	width: 1101px;
+	height: 85px;
+	text-align: left;
+	font-family: 'Patrick Hand', cursive;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#date {
+	left: 800px;
+	top: 340px;
+	position: absolute;
+	overflow: visible;
+	width: 922px;
+	height: 85px;
+	text-align: left;
+	font-family: 'Patrick Hand', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	color: rgba(0,0,0,1);
+}
+#explanation {
+	left: 800px;
+	top: 400px;
+	position: absolute;
+	overflow: auto;
+	width: 1022px;
+	height: 420px;
+	text-align: left;
+	font-family: 'Patrick Hand', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+}
+#picture_nasa {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	top: 85px;
+	left: 5px;
+	overflow: visible;
+}
+#picture_nasa_blur {
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	top: 90px;
+	left: 8px;
+	overflow: visible;
+	filter: blur(10px);
+}
+
+#title_page {
+	left: 630px;
+	top: 67px;
+	position: absolute;
+	overflow: visible;
+	width: 1232px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: monospace;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	text-shadow: 10px 0px 5px rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
